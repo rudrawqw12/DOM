@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #fruits-title{
+            color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <main id="main-container">
+        <section id="places-container">
+            <h1 id="places-title">welcome to my home</h1>
+        <ul id="places-list">
+            <li>hey bro</li>
+            <li>whats up</li>
+            <li>what are you doing </li>    
+        </ul>
+        </section>
+    
+        <section class="fruits-container">
+            <h1 id="fruits-title" class="some-class random-class"> Fruits I Like</h1>
+            <ul>
+                <li>apple</li>
+                <li>banana</li>
+                <li>carrot</li>
+            </ul>
+        </section>
+    </main>
+    <script src="stylejs.js"></script>
+    <script src="append.js"></script>
+
+    <script>
+        const someli=document.querySelectorAll('.fruits-container li');
+        // console.log(someli.innerText);
+        for(const li of someli){
+            // console.log(li.innerText);
+        }
+    </script>
+</body>
+</html>
